@@ -35,10 +35,6 @@ class CommentsWidget extends \yii\base\Widget
 
     public function run()
     {
-        if ($this->disabled) {
-            return;
-        }
-    
         if (isset($_POST['Comment'])) {
             $comment = new Comment();
             $comment->load($_POST['Comment']);
