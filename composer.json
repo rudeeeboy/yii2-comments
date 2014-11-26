@@ -1,0 +1,23 @@
+{
+    "name": "mbischof/yii2-comments",
+    "description": "Yii2 Module, comment everything",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "comments"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Marko Bischof",
+            "email": "marko.bischof@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "mbischof\\comments\\": ""
+        }
+    }
+}
